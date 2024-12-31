@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Personal Info in React</title>
+    <!-- Load React and ReactDOM via CDN -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- using the vinnela javasacript -->
+
+    <script type="text/babel" src="script3.js"></script>
+    <button id="changeJavascriptTitile">javascriptScript</button>
+    <button id="changeReactTitile">ReactTitle</button>
+  </body>
+</html>
+<script>
+  document
+    .getElementById("changeTitleButton")
+    .addEventListener("click", function () {
+      document.title = "Title Changed with Vanilla JS!";
+    });
+  document
+    .getElementById("changeTitleReactButton")
+    .addEventListener("click", function () {
+      alert("This button could be used for React to change the title!");
+    });
+</script>

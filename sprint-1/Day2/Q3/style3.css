@@ -1,0 +1,61 @@
+header {
+  text-align: center;
+  margin: 20px;
+}
+
+header h1 {
+  color: aqua;
+}
+
+header h1 span {
+  color: blue;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.plan-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.plan-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.plan-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.plan-card li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.plan-card svg {
+  margin-right: 10px;
+}
+
+button {
+  background-color: aqua;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightblue;
+}

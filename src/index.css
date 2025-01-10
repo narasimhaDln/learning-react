@@ -1,0 +1,35 @@
+.otp-area {
+  display: flex;
+  gap: 10px;
+  width: 70%;
+  margin: 20px auto;
+}
+.parent {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: lavenderblush;
+}
+input:hover {
+  background-color: brown;
+  color: aliceblue;
+}
+input {
+  width: 25px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  outline: none;
+  &:focus {
+    border: 2px solid mediumblue;
+  }
+}
+h2 {
+  text-align: center;
+}
+.button {
+  text-align: center;
+  gap: 5px;
+  margin-left: 10px;
+}

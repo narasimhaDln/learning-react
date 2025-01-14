@@ -1,20 +1,18 @@
-import "./App.css";
-import MyComponent from "./Components/Question1";
-import FocusInput from "./Components/Question2";
-import Timer from "./Components/Question3";
-import OtpHandling from "./Components/Question4";
-import VideoControl from "./Components/Question5";
+import { Route, Routes } from "react-router-dom";
+import People from "./Routing/People";
+import UserDetails from "./Routing/UserDetails";
+import "./App.css"
 
 function App() {
   return (
-    <>
-      <OtpHandling />
-      <MyComponent />
-      <FocusInput />
-      <Timer />
-      <VideoControl />
-    </>
+   
+      <Routes>
+        <Route path="/" element={<People />} />
+        <Route path="/users/:id" element={<UserDetails />} /> 
+      </Routes>
+   
   );
 }
 
 export default App;
+

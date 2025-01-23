@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../../src/App.css";
+import "../App.css";
 function OtpHandling() {
   const [otp, setOtp] = useState(new Array(4).fill(""));
   const HandleChange = (e, index) => {
